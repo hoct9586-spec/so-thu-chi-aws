@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 require dirname(__DIR__).'/src/bootstrap.php';
-const APP_VERSION = '1.0.0';
+const APP_VERSION = '2.0.0';
 $cats=['income'=>['salary'=>'Lương / trợ cấp','gift'=>'Quà tặng','other'=>'Thu khác'],
        'expense'=>['food'=>'Ăn uống','travel'=>'Đi lại','study'=>'Học tập','home'=>'Nhà ở','other'=>'Chi khác']];
 function fetchRow(PDO $db,string $sql,array $params): array|false {
